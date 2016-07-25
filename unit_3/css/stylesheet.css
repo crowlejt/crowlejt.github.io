@@ -1,17 +1,25 @@
 h1 {
 	color: #FF4F00;
 	font-family: Montserrat, sans-serif;
-	font-weight: ;
+	font-weight: bold;
 }
 
 body {
 	color: #262626;
 	font-family: Tahoma, sans-serif;
 	font-weight: normal;
+	background-image: url("images/portfolio-hero.jpg");
+  background-size: cover;
 }
 
 #slogan {
 	color: #262626;
 	font-family: Tahoma, sans-serif;
 	font-style: italic;
+}
+
+ul {
+	color: #262626;
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
 }
