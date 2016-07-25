@@ -1,25 +1,38 @@
 h1 {
 	color: #FF4F00;
 	font-family: Montserrat, sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
+	font-size: 45px
 }
 
 body {
 	color: #262626;
 	font-family: Tahoma, sans-serif;
-	font-weight: normal;
-	background-image: url("images/portfolio-hero.jpg");
-  background-size: cover;
+	font-weight: bolder;
+}
+
+div {
+	background-image: url("../images/hero4.jpg");
+	background-size: cover;
+	min-height: 80%;
+	min-height: 80vh;
+	text-align: center;
 }
 
 #slogan {
-	color: #262626;
+	color: #ADC8D4;
 	font-family: Tahoma, sans-serif;
-	font-style: italic;
+	font-style: italic;;
+	font-size: 24px;
 }
 
 ul {
-	color: #262626;
+	color: #FFFFFF;
 	font-family: Tahoma, sans-serif;
 	font-weight: bold;
+}
+
+.packages {
+	color: #C77800;
+	font-family: Tahoma, serif;
 }
