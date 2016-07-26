@@ -4,6 +4,9 @@ h1 {
 	font-weight: bolder;
 	font-size: 45px
 }
+h2 {
+	color: #ADC8D4
+}
 
 body {
 	color: #262626;
@@ -14,8 +17,7 @@ body {
 div {
 	background-image: url("../images/hero4.jpg");
 	background-size: cover;
-	min-height: 80%;
-	min-height: 80vh;
+	min-height: 70%;
 	text-align: center;
 }
 
@@ -34,5 +36,8 @@ ul {
 
 .packages {
 	color: #C77800;
+	font-family: Tahoma, serif;
+}
+p {
 	font-family: Tahoma, serif;
 }
