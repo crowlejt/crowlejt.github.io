@@ -17,10 +17,9 @@ body {
 div {
 	background-image: url("../images/hero4.jpg");
 	background-size: cover;
-	min-height: 70%;
 	text-align: center;
-	padding-bottom: 225px;
-	padding-top: 225px;
+	padding-bottom: 200px;
+	padding-top: 200x;
 	padding-left: 100px;
 	padding-right: 100px;
 }
