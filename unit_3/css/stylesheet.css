@@ -19,6 +19,7 @@ div {
 	background-size: cover;
 	min-height: 70%;
 	text-align: center;
+	padding: 25px;
 }
 
 #slogan {
