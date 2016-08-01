@@ -1,3 +1,12 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #262626;
+	font-family: Tahoma, sans-serif;
+	font-weight: bolder;
+}
+section {
+	padding:5em 0;
+}
 h1 {
 	color: #FF4F00;
 	font-family: Montserrat, sans-serif;
@@ -7,14 +16,19 @@ h1 {
 h2 {
 	color: #ADC8D4
 }
-
-body {
-	color: #262626;
+ul {
+	color: #FFFFFF;
 	font-family: Tahoma, sans-serif;
-	font-weight: bolder;
+	font-weight: bold;
 }
-
-div {
+p {
+	font-family: Tahoma, serif;
+}
+.packages {
+	color: #C77800;
+	font-family: Tahoma, serif;
+}
+#splash {
 	background-image: url("../images/hero4.jpg");
 	background-size: cover;
 	text-align: center;
@@ -29,18 +43,4 @@ div {
 	font-family: Tahoma, sans-serif;
 	font-style: italic;;
 	font-size: 24px;
-}
-
-ul {
-	color: #FFFFFF;
-	font-family: Tahoma, sans-serif;
-	font-weight: bold;
-}
-
-.packages {
-	color: #C77800;
-	font-family: Tahoma, serif;
-}
-p {
-	font-family: Tahoma, serif;
 }
