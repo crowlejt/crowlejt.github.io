@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:400,600,900';
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #262626;
+	font-family: Tahoma, sans-serif;
+}
+section {
+	padding:5em 0;
+}
+h1 {
+	color: #FF4F00;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+}
+h2 {
+	color: #ADC8D4;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 900;
+}
+ul {
+	color: #262626;
+	font-family: 'Tahoma', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+p {
+	font-family: 'Tahoma', sans-serif;
+}
+.packages {
+	color: #C77800;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+#splash {
+	background-image: url("../images/hero4.jpg");
+	background-size: cover;
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#slogan {
+	color: #ADC8D4;
+	font-family: 'Tahoma', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+#button {
+	color: #C77800;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 900;
+	font-size: 1.5em;
+	padding: 2em;
+}
+#pitch {
+
+}
