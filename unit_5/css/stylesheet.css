@@ -27,14 +27,28 @@ ul {
 p {
 	font-family: 'Tahoma', sans-serif;
 }
+
+section {
+	background-color: #FFE2B8
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E
+}
+
 .packages {
 	color: #C77800;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
 }
-#splash {
-	background-image: url("../images/hero4.jpg");
+
+#header {
+	background-color: #FFED74;
 	background-size: cover;
 	text-align: center;
 	padding-top: 100px;
@@ -48,6 +62,7 @@ p {
 	font-weight: 700;
 	font-size: 24px;
 }
+
 #button {
 	color: #C77800;
 	font-family: 'Titillium Web', sans-serif;
@@ -55,6 +70,7 @@ p {
 	font-size: 1.5em;
 	padding: 2em;
 }
-#pitch {
 
+#main {
+background-color: #FFE2B8;
 }
