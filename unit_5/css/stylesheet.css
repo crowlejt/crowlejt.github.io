@@ -3,29 +3,28 @@
 body {
 	color: #262626;
 	font-family: Tahoma, sans-serif;
+	font-size:16px;
+	line-height:1.25;
 }
 section {
 	padding:5em 0;
 }
+h1, h2, .cta, .logo, .packages {
+	font-family: 'Titillium Web', sans-serif;
+}
 h1 {
 	color: #FF4F00;
-	font-family: 'Titillium Web', sans-serif;
 	font-weight: 900;
-	font-size: 45px;
+	font-size: 3em;
 }
 h2 {
 	color: #ADC8D4;
-	font-family: 'Titillium Web', sans-serif;
 	font-weight: 900;
 }
 ul {
 	color: #262626;
-	font-family: 'Tahoma', sans-serif;
 	font-weight: 700;
-	text-align: center;
-}
-p {
-	font-family: 'Tahoma', sans-serif;
+	list-style-type: none;
 }
 
 section {
@@ -39,38 +38,42 @@ article {
 footer {
 	background-color: #FF957E
 }
+.logo {
 
+}
 .packages {
 	color: #C77800;
-	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
-#header {
+#splash {
 	background-color: #FFED74;
 	background-size: cover;
 	text-align: center;
-	padding-top: 100px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding: 6.25em 0;
 }
 
 #slogan {
 	color: #ADC8D4;
-	font-family: 'Tahoma', sans-serif;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
-#button {
+.cta {
 	color: #C77800;
-	font-family: 'Titillium Web', sans-serif;
 	font-weight: 900;
 	font-size: 1.5em;
 	padding: 2em;
 }
 
-#main {
-background-color: #FFE2B8;
+#main-services {
+	background-color: #FFE2B8;
+}
+.clearfix:after {
+	visibility:hidden;
+	content: " ";
+	height:0;
+	display:block;
+	clear:float;
 }
