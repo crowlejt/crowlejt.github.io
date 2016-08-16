@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:400,600,900';
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #262626;
+	font-family: Tahoma, sans-serif;
+	font-size:16px;
+	line-height:1.25;
+}
+section {
+	padding:5em 0;
+}
+h1, h2, .cta, .logo, .packages {
+	font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+	color: #FF4F00;
+	font-weight: 900;
+	font-size: 3em;
+}
+h2 {
+	color: #ADC8D4;
+	font-weight: 900;
+}
+ul {
+	color: #262626;
+	font-weight: 700;
+	list-style-type: none;
+}
+
+section {
+	background-color: #FFE2B8
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E
+}
+.logo {
+
+}
+.packages {
+	color: #C77800;
+	font-weight: 600;
+	font-size: 1.25em;
+}
+
+#splash {
+	background-color: #FFED74;
+	background-size: cover;
+	text-align: center;
+	padding: 6.25em 0;
+}
+
+#slogan {
+	color: #ADC8D4;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.cta {
+	color: #C77800;
+	font-weight: 900;
+	font-size: 1.5em;
+	padding: 2em;
+}
+
+#main-services {
+	background-color: #FFE2B8;
+}
+.clearfix:after {
+	visibility:hidden;
+	content: " ";
+	height:0;
+	display:block;
+	clear:float;
+}
