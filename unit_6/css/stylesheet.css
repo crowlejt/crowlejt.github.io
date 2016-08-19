@@ -28,7 +28,7 @@ ul {
 }
 
 section {
-	background-color: #FFE2B8
+	background-color: #FFE2B8;
 }
 
 article {
@@ -36,8 +36,41 @@ article {
 }
 
 footer {
-	background-color: #FF957E
+	background-color: #FF957E;
 }
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px, black solid;
+	padding: 20px;
+}
+
+#blog_left {
+	background-color: #e582a2;
+	border: 1px, black solid;
+	padding: 20px;
+	margin: 2em;
+	float: left;
+	width: 62%;
+}
+
+#store_right {
+	background-color: #e55b88;
+	border: 1px, black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 .logo {
 
 }
