@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web:400,600,900';
 * {margin:0;padding:0;box-sizing:border-box;}
+
 body {
 	color: #262626;
 	font-family: Tahoma, sans-serif;
@@ -32,26 +33,26 @@ ul {
 }
 
 section {
-	background-color: #FFE2B8;
+	background-color: #ffffff;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #ffffff;
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #ffffff;
 	clear: both;
 }
 
 #two_column {
-	background-color: #FFB7CF;
+	background-color: #ffffff;
 	border: 1px, black solid;
 	padding: 20px;
 }
 
 #blog_left {
-	background-color: #e582a2;
+	background-color: #262626;
 	border: 1px, black solid;
 	padding: 20px;
 	margin: 2em;
@@ -60,7 +61,7 @@ footer {
 }
 
 #store_right {
-	background-color: #e55b88;
+	background-color: #262626;
 	border: 1px, black solid;
 	padding: 20px;
 	float: right;
@@ -81,7 +82,7 @@ footer {
 }
 
 #splash {
-	background-color: #FFED74;
+	background-image: url(https://crowlejt.github.io/unit_4/images/hero4.jpg);
 	background-size: cover;
 	text-align: center;
 	padding: 6.25em 0;
@@ -101,7 +102,7 @@ footer {
 }
 
 #main-services {
-	background-color: #FFE2B8;
+	background-color: #ffffff;
 }
 .clearfix:after {
 	visibility:hidden;
