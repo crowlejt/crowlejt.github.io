@@ -9,18 +9,22 @@ body {
 section {
 	padding:5em 0;
 }
+
 h1, h2, .cta, .logo, .packages {
 	font-family: 'Titillium Web', sans-serif;
 }
+
 h1 {
 	color: #FF4F00;
 	font-weight: 900;
 	font-size: 3em;
 }
+
 h2 {
 	color: #ADC8D4;
 	font-weight: 900;
 }
+
 ul {
 	color: #262626;
 	font-weight: 700;
@@ -52,7 +56,7 @@ footer {
 	padding: 20px;
 	margin: 2em;
 	float: left;
-	width: 62%;
+	width: 46%;
 }
 
 #store_right {
@@ -60,7 +64,11 @@ footer {
 	border: 1px, black solid;
 	padding: 20px;
 	float: right;
-	width: 30%;
+	width: 46%;
+}
+
+#product_1,#product_2,#product_3 {
+		margin: 2em;
 }
 
 .logo {
