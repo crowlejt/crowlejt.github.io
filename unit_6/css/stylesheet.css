@@ -94,6 +94,13 @@ footer {
 #main-services {
 	background-color: #FFE2B8;
 }
+.clearfix:after {
+	visibility:hidden;
+	content: " ";
+	height:0;
+	display:block;
+	clear:float;
+}
 
 .clearfix:after {
     visibility: hidden;
