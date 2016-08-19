@@ -62,15 +62,6 @@ footer {
 	width: 30%;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 .logo {
 
 }
@@ -103,10 +94,12 @@ footer {
 #main-services {
 	background-color: #FFE2B8;
 }
+
 .clearfix:after {
-	visibility:hidden;
-	content: " ";
-	height:0;
-	display:block;
-	clear:float;
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
