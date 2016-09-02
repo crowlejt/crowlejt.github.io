@@ -1,0 +1,31 @@
+h1{
+  font: helvetica, sans-serif;
+  font-size: 4em;
+}
+
+
+
+#splash{
+  background-image: url(http://crowlejt.github.io/unit_8/images/splash.jpg);
+  background-size: cover;
+}
+
+#brandstrategy{
+  float: left;
+}
+
+#branddesign{
+  float: left;
+}
+
+#brandexperience{
+  float: left;
+}
+
+#workwithus{
+  clear: both;
+}
+
+footer{
+  clear: both;
+}
