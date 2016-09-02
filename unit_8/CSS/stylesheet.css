@@ -17,16 +17,59 @@ p{
   font-size: 1.5em;
 }
 
+span{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #FF4F00;
+}
 
+nav{
+  float: right;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin:.75em .75em .75em 0;
+}
 
+nav a{
+  margin: 0 .12em 0 .12em;
+  color: #FF4F00;
+}
+
+a:hover{
+  color: #ADC8D4;
+}
+
+footer{
+  clear: both;
+  margin: 1em 0 .75em .75em;
+}
+
+.logo{
+  margin:.75em 0 .75em .75em;
+  float: left;
+}
 
 .cta{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   font-weight: 600;
   color: #C77800;
-  border: 9px solid;
-	padding: .5em;
+  border: 5px solid;
+	padding: .3em;
+}
+
+#ourworkcta{
+  margin-top: 3em;
+}
+
+#portfoliocta{
+  margin-top: 3em;
+}
+
+#letschatcta{
+  margin-top: 3em;
 }
 
 #splash{
@@ -34,6 +77,7 @@ p{
   background-size: cover;
   text-align: center;
   padding: 6.25em;
+  clear:both;
 }
 
 #thepitch,#brandstrategy,#branddesign,#brandexperience{
@@ -48,25 +92,28 @@ p{
 #brandstrategy{
   float: left;
   width: 25%;
-  border: 1px, black solid;
-	padding: 15px;
-  margin: .5em;
+  border: 1px solid;
+	padding: 30px;
+  text-align: center;
+  margin: .5em .25em 0 .25em;
 }
 
 #branddesign{
   float: left;
   width: 25%;
-  border: 1px, black solid;
-	padding: 15px;
-  margin: .5em;
+  border: 1px solid;
+	padding: 30px;
+  text-align: center;
+  margin: .5em .25em 0 .25em;
 }
 
 #brandexperience{
   float: left;
   width: 25%;
-  border: 1px, black solid;
-	padding: 15px;
-  margin: .5em;
+  border: 1px solid;
+	padding: 30px;
+  text-align: center;
+  margin: .5em .25em 0 .25em;
 }
 
 #workwithus{
@@ -81,6 +128,11 @@ p{
   margin-top: 3em;
 }
 
-footer{
-  clear: both;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
