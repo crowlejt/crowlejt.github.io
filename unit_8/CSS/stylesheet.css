@@ -43,12 +43,18 @@ a:hover{
 
 footer{
   clear: both;
-  margin: 1em 0 .75em .75em;
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+body{
+  background-color: #262626;
 }
 
 .logo{
   margin:.75em 0 .75em .75em;
   float: left;
+  color: #ffffff;
 }
 
 .cta{
@@ -92,8 +98,10 @@ footer{
 #brandstrategy{
   float: left;
   width: 25%;
-  border: 1px solid;
-	padding: 30px;
+  max-height: 271px;
+  height: 271px;
+
+  padding: 1.5em;
   text-align: center;
   margin: .5em .25em 0 .25em;
 }
@@ -101,8 +109,10 @@ footer{
 #branddesign{
   float: left;
   width: 25%;
-  border: 1px solid;
-	padding: 30px;
+  max-height: 271px;
+  height: 271px;
+
+	padding: 1.5em;
   text-align: center;
   margin: .5em .25em 0 .25em;
 }
@@ -110,8 +120,10 @@ footer{
 #brandexperience{
   float: left;
   width: 25%;
-  border: 1px solid;
-	padding: 30px;
+  max-height: 271px;
+  height: 271px;
+
+	padding: 1.5em;
   text-align: center;
   margin: .5em .25em 0 .25em;
 }
@@ -125,14 +137,5 @@ footer{
 
 #portfoliocta{
   clear: both;
-  margin-top: 3em;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+  margin-top: 7em;
 }
