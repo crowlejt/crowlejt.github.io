@@ -1,29 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Open+Sans:600,800';
 h1{
-  font: helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 4em;
+  font-weight: 800;
+  color: #FF4F00;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
 }
 
 
 
+
+.cta{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #C77800;
+  border: 30px, #C77800 solid;
+	padding: 4em;
+}
+
 #splash{
-  background-image: url(http://crowlejt.github.io/unit_8/images/splash.jpg);
+  background-image: url(http://crowlejt.github.io/unit_8/Images/splash.jpg);
   background-size: cover;
+  text-align: center;
+  padding: 6.25em;
+}
+
+#thepitch,#brandstrategy,#branddesign,#brandexperience{
+  background-color: #ffffff
+}
+
+#thepitch{
+  text-align: center;
+  padding: 4em;
 }
 
 #brandstrategy{
   float: left;
+  width: 30%;
+  border: 1px, black solid;
+	padding: 30px;
 }
 
 #branddesign{
   float: left;
+  width: 30%;
+  border: 1px, black solid;
+	padding: 30px;
 }
 
 #brandexperience{
   float: left;
+  width: 30%;
+  border: 1px, black solid;
+	padding: 30px;
 }
 
 #workwithus{
   clear: both;
+  background: #262626;
+  padding: 4em;
+  text-align: center;
 }
 
 footer{
