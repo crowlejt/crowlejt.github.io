@@ -95,15 +95,19 @@ body{
   padding: 4em;
 }
 
+#offerings{
+  padding: 20px;
+  display: block;
+}
+
 #brandstrategy{
   float: left;
   width: 25%;
   max-height: 271px;
   height: 271px;
-
   padding: 1.5em;
   text-align: center;
-  margin: .5em .25em 0 .25em;
+  margin: auto;
 }
 
 #branddesign{
@@ -111,10 +115,9 @@ body{
   width: 25%;
   max-height: 271px;
   height: 271px;
-
 	padding: 1.5em;
   text-align: center;
-  margin: .5em .25em 0 .25em;
+  margin: auto;
 }
 
 #brandexperience{
@@ -122,10 +125,9 @@ body{
   width: 25%;
   max-height: 271px;
   height: 271px;
-
 	padding: 1.5em;
   text-align: center;
-  margin: .5em .25em 0 .25em;
+  margin: auto;
 }
 
 #workwithus{
