@@ -144,6 +144,12 @@ body{
   margin-top: 7em;
 }
 
+@media (max-width: 1270px){
+  #branddesign{
+    margin: 1.5em 0 0 2.5em;
+  }
+}
+
 @media (max-width: 1360px){
   #branddesign{
     margin: 1.5em 0 0 3.5em;
