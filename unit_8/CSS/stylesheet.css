@@ -107,7 +107,7 @@ body{
   height: 271px;
   padding: 1.5em;
   text-align: center;
-  margin: auto;
+  margin: 1.5em 0 0 0;
 }
 
 #branddesign{
@@ -117,7 +117,7 @@ body{
   height: 271px;
 	padding: 1.5em;
   text-align: center;
-  margin: 0 0 0 4.5em;
+  margin: 1.5em 0 0 4.5em;
 }
 
 #brandexperience{
@@ -127,7 +127,7 @@ body{
   height: 271px;
 	padding: 1.5em;
   text-align: center;
-  margin: auto;
+  margin: 1.5em 0 0 0;
 }
 
 #workwithus{
@@ -140,4 +140,14 @@ body{
 #portfoliocta{
   clear: both;
   margin-top: 7em;
+}
+
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
 }
