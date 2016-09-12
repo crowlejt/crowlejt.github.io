@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Dosis|Open+Sans:600,800';
+*{box-sizing:border-box;}
+
 h1{
   font-family: 'Open Sans', sans-serif;
   font-size: 4em;
@@ -51,6 +53,29 @@ body{
   background-color: #262626;
 }
 
+#offerings{
+    overflow:auto;
+}
+
+.brandstrategy{
+    width:30.33%;
+    margin:1.5%;
+    border:1px solid #000;
+    height:200px;
+    float:left;
+    padding:2em;
+}
+
+.branddesign{
+    width:47%;
+    margin:1.5%;
+}
+
+.brandexperience{
+    width:22%;
+    margin:1.5%;
+}
+
 .logo{
   margin:.75em 0 .75em .75em;
   float: left;
@@ -100,36 +125,6 @@ body{
 
 #offerings{
   text-align: center;
-}
-
-#brandstrategy{
-  float: left;
-  width: 25%;
-  max-height: 271px;
-  height: 271px;
-  padding: 1.5em;
-  text-align: center;
-  margin: 1.5em 0 0 0;
-}
-
-#branddesign{
-  float: left;
-  width: 25%;
-  max-height: 271px;
-  height: 271px;
-	padding: 1.5em;
-  text-align: center;
-  margin: 1.5em 0 0 8em;
-}
-
-#brandexperience{
-  float: right;
-  width: 25%;
-  max-height: 271px;
-  height: 271px;
-	padding: 1.5em;
-  text-align: center;
-  margin: 1.5em 0 0 0;
 }
 
 #workwithus{
