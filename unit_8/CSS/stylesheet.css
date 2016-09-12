@@ -103,7 +103,8 @@ body{
 }
 
 #portfoliocta{
-  margin-top: 3em;
+  clear: both;
+  margin-top: .5em;
   text-align: center;
 }
 
@@ -136,15 +137,39 @@ body{
   text-align: center;
 }
 
-#portfoliocta{
-  clear: both;
-  margin-top: .5em;
-}
-
 .clearfix:after {
   content: ".";
   visibility: hidden;
   display: block;
   height: 0;
   clear: both;
+}
+
+@media (max-width: 749){
+  #portfoliocta{
+    margin: 4em;
+  }
+}
+
+@media (max-width: 732){
+  .brandstrategy{
+    width:30.33%;
+    margin:1.5%;
+    height:300px;
+    padding:2em;
+  }
+
+  .branddesign{
+    width:30.33%;
+    margin:1.5%;
+    height:300px;
+    padding:2em;
+  }
+
+  .brandexperience{
+    width:30.33%;
+    margin:1.5%;
+    height:300px;
+    padding:2em;
+  }
 }
