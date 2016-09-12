@@ -31,16 +31,20 @@ nav{
   font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-size: 1.5em;
-  margin:2.5em .75em .75em 0;
+  margin: 1.5em .75em 0 0;
 }
 
 nav a{
   margin: 0 .25em 0 .25em;
   color: #FF4F00;
+  display: inline-block;
+  padding: .75em;
+  text-decoration: none;
 }
 
 a:hover{
   color: #ADC8D4;
+  text-decoration: underline;
 }
 
 footer{
@@ -49,32 +53,22 @@ footer{
   padding: 1em;
 }
 
-body{
+header{
   background-color: #262626;
 }
 
-.brandstrategy{
-  width:30.33%;
-  margin:1.5%;
+.brandstrategy, .branddesign, .brandexperience{
+  width: 33.33%;
+  /* margin:1.5%; */
   height:300px;
   float:left;
-  padding:2em;
+  padding: 2em;
 }
 
 .branddesign{
-  width:30.33%;
-  margin:1.5%;
-  height:300px;
-  float:left;
-  padding:2em;
 }
 
 .brandexperience{
-  width:30.33%;
-  margin:1.5%;
-  height:300px;
-  float:left;
-  padding:2em;
   }
 
 .logo{
@@ -88,18 +82,21 @@ body{
   font-weight: 600;
   color: #C77800;
   border: 5px solid;
-	padding: .3em;
+  padding: 1em 2em;
+  display: inline-block;
+  margin-top: 1em;
+  text-decoration: none;
 }
 
 #offerings{
   text-align: center;
-  overflow: auto;
-  display: block;
 }
 
 #ourworkcta{
-  margin-top: 4em;
-  text-align: center;
+  /* margin-top: 4em; */
+  /* text-align: center; */
+  /* float: left; */
+  padding: 10em;
 }
 
 #portfoliocta{
@@ -116,8 +113,8 @@ body{
 #splash{
   background: url(https://crowlejt.github.io/unit_8/Images/splash.jpg) no-repeat center center scroll;
   background-size: cover;
-  text-align: center;
-  padding: 8em 6.25em;
+  /* text-align: center; */
+  height: 60vh;
   clear: both;
 }
 
@@ -145,18 +142,11 @@ body{
   clear: both;
 }
 
-@media (max-width: 749){
+@media only screen and (max-width: 749px){
   #portfoliocta{
     margin: 4em;
   }
-}
-
-@media (max-width: 732){
   .brandstrategy,.branddesign,.brandexperience{
-    width:30.33%;
-    margin:1.5%;
-    height:300px;
-    padding:2em;
-    text-align: center;
+    width: 97%;
   }
 }
