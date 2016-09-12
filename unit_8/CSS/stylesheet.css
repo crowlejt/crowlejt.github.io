@@ -31,7 +31,7 @@ nav{
   font-family: 'Open Sans',sans-serif;
   font-weight: 600;
   font-size: 1.5em;
-  margin:.75em .75em .75em 0;
+  margin:2.5em .75em .75em 0;
 }
 
 nav a{
@@ -80,7 +80,6 @@ body{
 .logo{
   margin:.75em 0 .75em .75em;
   float: left;
-  color: #ffffff;
 }
 
 .cta{
