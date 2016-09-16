@@ -1,0 +1,180 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis|Open+Sans:600,800';
+*{box-sizing:border-box;}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+  color: #FF4F00;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+}
+
+span{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #FF4F00;
+}
+
+nav{
+  float: right;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 1.5em .75em 0 0;
+}
+
+nav a{
+  margin: 0 .25em 0 .25em;
+  color: #FF4F00;
+  display: inline-block;
+  padding: .75em;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ADC8D4;
+  text-decoration: underline;
+}
+
+footer{
+  clear: both;
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+header{
+  background-color: #262626;
+}
+
+.brandstrategy, .branddesign, .brandexperience{
+  width: 33.33%;
+  /* margin:1.5%; */
+  height:300px;
+  float:left;
+  padding: 2em;
+}
+
+.branddesign{
+}
+
+.brandexperience{
+}
+
+.logo{
+  margin:.75em 0 .75em .75em;
+  float: left;
+}
+
+.cta{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #C77800;
+  border: 5px solid;
+  padding: 1em 2em;
+  display: inline-block;
+  margin-top: 1em;
+  text-decoration: none;
+}
+
+#offerings{
+  text-align: center;
+}
+
+#ourworkcta{
+  /* margin-top: 4em; */
+  /* text-align: center; */
+  /* float: left; */
+  padding: 4em;
+}
+
+#portfoliocta{
+  clear: both;
+  margin-top: .5em;
+  text-align: center;
+}
+
+#letschatcta{
+  margin-top: 4em;
+  text-align: center;
+}
+
+#splash{
+  background: url(https://crowlejt.github.io/unit_8/Images/splash.jpg) no-repeat center center scroll;
+  background-size: cover;
+  /* text-align: center; */
+  height: 60vh;
+  clear: both;
+  min-height: 2em;
+}
+
+#thepitch,#brandstrategy,#branddesign,#brandexperience{
+  background-color: #ffffff
+}
+
+#thepitch{
+  text-align: center;
+  padding: 4em;
+}
+
+#workwithus{
+  clear: both;
+  background: #262626;
+  padding: 4em;
+  text-align: center;
+}
+
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media only screen and (max-width: 749px){
+  #portfoliocta{
+    margin: 4em;
+  }
+  .brandstrategy,.branddesign,.brandexperience{
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 585px){
+  #ourworkcta{
+    /* margin-top: 4em; */
+    /* text-align: center; */
+    /* float: left; */
+    padding: 3em;
+  }
+}
+
+@media only screen and (max-width: 516px){
+  nav{
+    margin: -4.5em 0.75em 0 0;
+  }
+  #splash{
+
+  }
+
+@media only screen and (max-width: 516px){
+  .logo{
+    margin:.75em;
+    float: center;
+  }
+  nav{
+    margin: -1em 0.75em 0 0;
+  }
+}
