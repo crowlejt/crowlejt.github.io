@@ -116,6 +116,7 @@ header{
   /* text-align: center; */
   height: 60vh;
   clear: both;
+  min-height: 2em;
 }
 
 #thepitch,#brandstrategy,#branddesign,#brandexperience{
@@ -159,11 +160,21 @@ header{
     padding: 3em;
   }
 }
+
 @media only screen and (max-width: 516px){
   nav{
     margin: -4.5em 0.75em 0 0;
   }
   #splash{
-    min-width: 2em;
+
+  }
+
+@media only screen and (max-width: 516px){
+  .logo{
+    margin:.75em;
+    float: center;
+  }
+  nav{
+    margin: -1em 0.75em 0 0;
   }
 }
